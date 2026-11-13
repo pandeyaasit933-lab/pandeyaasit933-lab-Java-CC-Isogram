@@ -1,0 +1,40 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/IsogramTest.java",
+      "testCases": [
+        {
+          "methodName": "isoTest1",
+          "label": "Verify 'cat' is an isogram",
+          "description": "Tests that the isIsogram method correctly returns true for 'cat', which contains each letter exactly once"
+        },
+        {
+          "methodName": "isoTest2",
+          "label": "Verify 'isogram' is an isogram",
+          "description": "Tests that the isIsogram method correctly returns true for 'isogram', which contains each letter exactly once"
+        },
+        {
+          "methodName": "isoTest3",
+          "label": "Verify 'uncopyrightable' is an isogram",
+          "description": "Tests that the isIsogram method correctly returns true for 'uncopyrightable', which contains each letter exactly once"
+        },
+        {
+          "methodName": "isoTest4",
+          "label": "Verify 'egg' is not an isogram",
+          "description": "Tests that the isIsogram method correctly returns false for 'egg', which has repeating letters"
+        },
+        {
+          "methodName": "isoTest5",
+          "label": "Verify 'java' is not an isogram",
+          "description": "Tests that the isIsogram method correctly returns false for 'java', which has repeating letters"
+        },
+        {
+          "methodName": "isoTest6",
+          "label": "Verify 'programming' is not an isogram",
+          "description": "Tests that the isIsogram method correctly returns false for 'programming', which has repeating letters"
+        }
+      ]
+    }
+  ]
+}
